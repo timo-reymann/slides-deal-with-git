@@ -30,7 +30,6 @@ Make visible you are the real owner of a commit.
 
 ![bg left:45% height:100%](./images/amog-us-commits.png)
 
-
 ---
 
 # Anyone can be Linus!
@@ -76,9 +75,16 @@ git commit -m "I am Linus!"
 2. add the key to your user profile on the git hosting platform (e.g.
 [GitHub](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account))
 3. configure your local git installation:
-  `git config --global user.signingkey <key-id>`
+    ```shell
+    # set gpg key
+    git config --global user.signingkey <key-id>
+
+    # autosign commits
+    git config --global commit.gpgsign true
+    ```
 
 ---
+
 <!-- _class: invert -->
 # #2 Keep your history clean
 
@@ -89,7 +95,6 @@ But luckily we are not accountants!
 ---
 
 <!-- _footer: Image for git squash: [atlassian.com](https://atlassian.com/git/tutorials/rewriting-history) -->
-
 # Squash your feature branches
 
 - powerful feature allowing you to combine multiple commits
@@ -99,6 +104,7 @@ But luckily we are not accountants!
 ![bg left:50% height:250px vertical](https://blog.timo-reymann.de/content/images/2022/08/image-14.png)
 
 ---
+
 <!-- _footer: Image for git rebase: [atlassian.com](https://atlassian.com/git/tutorials/rewriting-history/git-rebase) -->
 # Rebase your changes
 
@@ -109,6 +115,7 @@ But luckily we are not accountants!
 ![bg left:50% height:50%](./images/git-rebase.svg)
 
 ---
+
 <!-- _class: invert -->
 # #3 Simplify your daily life
 
@@ -152,6 +159,7 @@ alias commit = "git stage . && git commit -m"
 ```
 
 ---
+
 <!-- _class: invert -->
 # #4 Use branches and tags wisely
 
@@ -184,7 +192,6 @@ Who doesn't love conventions?
 ---
 
 <!-- _footer: Learn more here: https://conventionalcommits.org/ -->
-
 # Commit with respect to conventional commits
 
 - be specific about your impact
@@ -202,6 +209,7 @@ The format is super simple:
 ```
 
 ---
+
 # Use the commit body
 
 - the commit can have a body, use it when required
@@ -213,8 +221,8 @@ The format is super simple:
       ![](./images/commit-body-open.png)
 
 ---
-<!-- _footer: Learn more here: https://conventionalcomments.org/-->
 
+<!-- _footer: Learn more here: https://conventionalcomments.org/-->
 # Use Conventional Comments on PRs
 
 - no more undertone in your comments
@@ -242,13 +250,14 @@ The format, again, is super simple:
 ![bg right:30% height:300px](./images/joda-force.jpg)
 
 ---
-<!-- _class: invert -->
 
+<!-- _class: invert -->
 # Q&A
 
 Questions, concerns, ideas? - Now is the time
 
 ---
+
 # That's (g)it
 
 Slides (Source):
@@ -262,3 +271,4 @@ Twitter: [@timo_reymann](https://twitter.com/timo_reymann)
 GitHub: [timo-reymann](https://github.com/timo-reymann)
 
 ![bg right:45% width:96%](./images/in_case_of_fire.png)
+
