@@ -214,7 +214,7 @@ The format is super simple:
 ---
 <!-- footer: Learn more here: https://conventionalcomments.org/-->
 
-# Use Convention Comments on PRs
+# Use Conventional Comments on PRs
 
 - no more undertone in your comments
 - clear scope and less words to type and read
@@ -257,4 +257,4 @@ GitHub: [timo-reymann](https://github.com/timo-reymann)
 
 
 
-![bg right:40% width:80%](./images/in_case_of_fire.png)
+![bg right:45% width:96%](./images/in_case_of_fire.png)
