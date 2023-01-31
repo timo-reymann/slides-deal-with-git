@@ -9,7 +9,7 @@ theme: default
 # Deal with (g)it
 Top 5 tips to make the best out of (g)it
 
-![bg right:50% width:300px](./images/git-icon.png)
+![bg right:45% width:300px](./images/git-icon.png)
 
 ---
 <!-- _class: invert -->
