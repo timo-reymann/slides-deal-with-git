@@ -153,15 +153,108 @@ alias commit = "git stage . && git commit -m"
 
 # #4 Use branches and tags wisely
 
-> TBD
+Nothing is immutable by default.
+
+---
+
+# Choose the right branching concept
+
+- trunk based development is a valid choice
+- build your workflow around the real world, not some theory
+- commiting to the main branch is not (always) a sin
+- be creative and think out of the box
+- dont see branching concepts as a religion
+
+---
+
+# Tags are not immutable
+
+- tags can be changed and deleted, making them also work as pointer
+- that can break dependency pins
+- only unique thing in git are commit hashes
 
 ---
 
 # #5 Rely on conventions
 
-> TBD
+Who doesnt love conventions?
 
 ---
 
+<!-- footer: Learn more here: https://conventionalcommits.org/ -->
 
-![bg width:70%](./images/in_case_of_fire.png)
+# Commit with respect to conventional commits
+
+- be specific about your impact
+- short and concise description
+- explain details in the body
+
+The format is super simple:
+
+```text
+<type>[(optional scope)]: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
+---
+<!-- footer: "" -->
+# Use the commit body
+
+- the commit can have a body, use it when required
+- collapses by default in web UIs and toolings
+    - when viewing the history:
+     ![](./images/commit-body-closed.png)
+
+    - after clicking on the dots:
+      ![](./images/commit-body-open.png)
+
+---
+<!-- footer: Learn more here: https://conventionalcomments.org/-->
+
+# Use Convention Comments on PRs
+
+- no more undertone in your comments
+- clear scope and less words to type and read
+- take time for praise as well
+
+The format, again, is super simple:
+
+```text
+<label> [(decorations)]: <subject>
+
+[discussion]
+```
+
+---
+<!-- footer: "" -->
+
+# Recap
+
+- Sign your commits with GPG
+- Keep the history clean, dont hesitate to use erasers
+- Make your daily life easier with git and shell alias as well as third party packages and scripts
+- Be aware tags and branches are mutable all the way, only reliable thing are commit hashes
+- Use conventions for commits and PRs, dont forget about the message body
+
+![bg right:30% height:300px](./images/joda-force.jpg)
+
+---
+<!-- footer: "" -->
+
+# Thats it
+Slides (Source):
+[github/timo-reymann/slides-deal-with-git](https://github.com/timo-reymann/slides-deal-with-git/)
+
+Slides (HTML):
+[deal-with-git.slides.timo-reymann.de](https://deal-with-git.slides.timo-reymann.de/)
+<hr />
+
+Twitter: [@timo_reymann](https://twitter.com/timo_reymann)
+GitHub: [timo-reymann](https://github.com/timo-reymann)
+
+
+
+![bg right:40% width:80%](./images/in_case_of_fire.png)
