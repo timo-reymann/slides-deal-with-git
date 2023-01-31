@@ -26,7 +26,7 @@ Make visible you are the real owner of a commit.
 
 > Fellow linux redditors may now this already
 
-![bg right:45% height:100%](./images/amog-us-commits.png)
+![bg left:45% height:100%](./images/amog-us-commits.png)
 
 
 ---
@@ -43,7 +43,8 @@ git config --global user.email "torvalds@osdl.org"
 ```
 
 ... and be Linus:
-```
+
+```shell
 touch proof
 git stage proof
 git commit -m "I am Linus!"
@@ -79,13 +80,74 @@ git commit -m "I am Linus!"
 
 # #2 Keep your history clean
 
-> TBD
+> accountants don't use erasers or they end up in jail
+
+But luckily we are not accountants!
 
 ---
 
+<!-- footer: Image for git squash: atlassian.com/git/tutorials/rewriting-history -->
+
+# Squash your feature branches
+
+- powerful feature allowing you to combine multiple commits
+- supported by git hosters such as GitHub/GitLab on PRs
+
+![bg left:50% height:300px](./images/git-squash.svg)
+![bg left:50% height:250px vertical](https://blog.timo-reymann.de/content/images/2022/08/image-14.png)
+
+---
+<!-- footer: Image for git rebase: atlassian.com/git/tutorials/rewriting-history/git-rebase -->
+# Rebase your changes
+
+- local repo is not up to date
+- main branch has evolved faster than feature branch
+- smaller changes most of the time dont need to be merged
+
+![bg left:50% height:50%](./images/git-rebase.svg)
+
+---
+<!-- footer: "" -->
 # #3 Simplify your daily life
 
-> TBD
+Git and your shell has more to offer than just builtin commands!
+
+---
+
+# Add helper tools
+
+- Any command thats prefixed with `git-` can be a git command
+- [git-semver-tag](https://github.com/timo-reymann/git-semver-tag) becomes `git semver-tag`
+
+---
+
+# Create alias in your git config
+
+- can be a entire shell command
+- or just a alias
+
+e.g. here are mine:
+```ini
+[alias]
+p = pull
+squash-all = "!f(){ git reset $(git commit-tree HEAD^{tree} -m \"${1:-A new start}\");};f"
+sync = "!f() { git pull --rebase && git push; };f"
+```
+
+---
+
+# Alias entire git commands
+
+- for the extreme lazy
+- add to your shellrc
+
+```shell
+# use gpush
+alias gpush = "git push"
+
+# use commit "my message"
+alias commit = "git stage . && git commit -m"
+```
 
 ---
 
