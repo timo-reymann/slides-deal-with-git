@@ -9,6 +9,8 @@ theme: default
 # Deal with (g)it
 Top 5 tips to make the best out of (g)it
 
+![bg right:50% width:300px](./images/git-icon.png)
+
 ---
 <!-- _class: invert -->
 # #1 Sign your commits
@@ -86,7 +88,7 @@ But luckily we are not accountants!
 
 ---
 
-<!-- footer: Image for git squash: [atlassian.com](https://atlassian.com/git/tutorials/rewriting-history) -->
+<!-- _footer: Image for git squash: [atlassian.com](https://atlassian.com/git/tutorials/rewriting-history) -->
 
 # Squash your feature branches
 
@@ -97,7 +99,7 @@ But luckily we are not accountants!
 ![bg left:50% height:250px vertical](https://blog.timo-reymann.de/content/images/2022/08/image-14.png)
 
 ---
-<!-- footer: Image for git rebase: [atlassian.com](https://atlassian.com/git/tutorials/rewriting-history/git-rebase) -->
+<!-- _footer: Image for git rebase: [atlassian.com](https://atlassian.com/git/tutorials/rewriting-history/git-rebase) -->
 # Rebase your changes
 
 - local repo is not up to date
@@ -107,7 +109,6 @@ But luckily we are not accountants!
 ![bg left:50% height:50%](./images/git-rebase.svg)
 
 ---
-<!-- footer: "" -->
 <!-- _class: invert -->
 # #3 Simplify your daily life
 
@@ -182,7 +183,7 @@ Who doesn't love conventions?
 
 ---
 
-<!-- footer: Learn more here: https://conventionalcommits.org/ -->
+<!-- _footer: Learn more here: https://conventionalcommits.org/ -->
 
 # Commit with respect to conventional commits
 
@@ -201,7 +202,6 @@ The format is super simple:
 ```
 
 ---
-<!-- footer: "" -->
 # Use the commit body
 
 - the commit can have a body, use it when required
@@ -213,7 +213,7 @@ The format is super simple:
       ![](./images/commit-body-open.png)
 
 ---
-<!-- footer: Learn more here: https://conventionalcomments.org/-->
+<!-- _footer: Learn more here: https://conventionalcomments.org/-->
 
 # Use Conventional Comments on PRs
 
@@ -230,7 +230,6 @@ The format, again, is super simple:
 ```
 
 ---
-<!-- footer: "" -->
 
 # Recap
 
@@ -250,10 +249,8 @@ The format, again, is super simple:
 Questions, concerns, ideas? - Now is the time
 
 ---
+# That's (g)it
 
-<!-- footer: "" -->
-
-# That's it
 Slides (Source):
 [github/timo-reymann/slides-deal-with-git](https://github.com/timo-reymann/slides-deal-with-git/)
 
@@ -263,7 +260,5 @@ Slides (HTML):
 
 Twitter: [@timo_reymann](https://twitter.com/timo_reymann)
 GitHub: [timo-reymann](https://github.com/timo-reymann)
-
-
 
 ![bg right:45% width:96%](./images/in_case_of_fire.png)
