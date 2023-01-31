@@ -63,8 +63,13 @@ things</p>
 <li>create a <a href="https://gnupg.org/">GPG</a> key (<a href="https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key">Tutorial</a>)</li>
 <li>add the key to your user profile on the git hosting platform (e.g.<br />
 <a href="https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account">GitHub</a>)</li>
-<li>configure your local git installation:<br />
-<code>git config --global user.signingkey &lt;key-id&gt;</code></li>
+<li>configure your local git installation:<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-shell"><span class="hljs-meta prompt_"># </span><span class="language-bash"><span class="hljs-built_in">set</span> gpg key</span>
+git config --global user.signingkey &lt;key-id&gt;
+<span class="hljs-meta prompt_">
+# </span><span class="language-bash">autosign commits</span>
+git config --global commit.gpgsign true
+</code></pre>
+</li>
 </ol>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="7" data-paginate="true" data-class="invert" data-theme="default" class="invert" data-marpit-pagination="7" data-marpit-pagination-total="23" style="--paginate:true;--class:invert;--theme:default;">
