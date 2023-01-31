@@ -24,7 +24,7 @@ Make visible you are the real owner of a commit.
 
 [GitHub: Amog-OS/AmogOS](https://github.com/Amog-OS/AmogOS/commits?author=torvalds)
 
-> Fellow linux redditors may now this already
+> Fellow linux redditors may know this already
 
 ![bg left:45% height:100%](./images/amog-us-commits.png)
 
