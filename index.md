@@ -179,7 +179,7 @@ Nothing is immutable by default.
 
 # Tags are not immutable
 
-- tags can be changed and deleted, making them also work as pointer
+- tags can be changed and deleted, making them also work as pointers
 - that can break dependency pins
 - only unique thing in git are commit hashes
 
