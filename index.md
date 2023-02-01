@@ -3,7 +3,7 @@ title: Deal with (g)it
 description: Top 5 tips to make the best out of (g)it
 author: Timo Reymann
 paginate: true
-theme: default
+theme: timo-reymann
 ---
 
 # Deal with (g)it
