@@ -270,5 +270,7 @@ Slides (HTML):
 Twitter: [@timo_reymann](https://twitter.com/timo_reymann)
 GitHub: [timo-reymann](https://github.com/timo-reymann)
 
-![bg right:45% width:96%](./images/in_case_of_fire.png)
+---
+
+![bg height:85%](./images/in_case_of_fire.png)
 
