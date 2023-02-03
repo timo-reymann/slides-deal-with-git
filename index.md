@@ -11,6 +11,16 @@ Top 5 tips to make the best out of (g)it
 
 ![bg right:45% width:300px](./images/git-icon.png)
 
+<!-- 
+Quick question for warmup: 
+How long do you work with git already? - Drop a line in the chat
+
+Structure:
+- note down slide number in case of specific question to topic
+- questions at the end
+- presentation will be available after talk
+-->
+
 ---
 <!-- _class: invert -->
 # #1 Sign your commits
@@ -18,6 +28,10 @@ Top 5 tips to make the best out of (g)it
 Make visible you are the real owner of a commit.
 
 ---
+
+<!--
+Can this be the same man who said "Fuck you nvidia" and is well known for his rude behaviour?
+-->
 
 # Are these commit from Linus?
 
@@ -31,6 +45,11 @@ Make visible you are the real owner of a commit.
 ![bg left:45% height:100%](./images/amog-us-commits.png)
 
 ---
+
+<!--
+- git config does not verify, because it cant
+- decrentalized by design
+-->
 
 # Anyone can be Linus!
 
@@ -55,6 +74,13 @@ git commit -m "I am Linus!"
 
 ---
 
+<!--
+- fancy
+- make sure
+    - for your mail 
+    - set on platform
+-->
+
 # Verified commits to the rescue!
 
 ![bg left:45% height:100%](./images/verified-commits.png)
@@ -68,6 +94,12 @@ git commit -m "I am Linus!"
 > things
 
 ---
+
+<!--
+- GPG can be a bit painful
+- cryptography is still hard
+- platforms like keybase.io could be solution as well
+-->
 
 # Setting it up is easy - 3 steps to victory
 
@@ -105,6 +137,11 @@ But luckily we are not accountants!
 
 ---
 
+<!--
+- local main and remote main are also two branches
+- also works for PR merges, would not recommend anyway
+-->
+
 <!-- _footer: Image for git rebase: [atlassian.com](https://atlassian.com/git/tutorials/rewriting-history/git-rebase) -->
 # Rebase your changes
 
@@ -122,6 +159,11 @@ But luckily we are not accountants!
 Git and your shell has more to offer than just builtin commands!
 
 ---
+
+<!--
+- can be also simple shell script in path
+- advertise semver-tag
+-->
 
 # Add helper tools
 
@@ -145,6 +187,10 @@ sync = "!f() { git pull --rebase && git push; };f"
 
 ---
 
+<!--
+- works in any shell
+-->
+
 # Alias entire git commands
 
 - for the extreme lazy
@@ -167,6 +213,12 @@ Nothing is immutable by default.
 
 ---
 
+<!--
+- dont hesistate to use own patterns
+- existing does not mean must be right for your usecase
+- can be changed when necessary
+-->
+
 # Choose the right branching concept
 
 - trunk based development is a valid choice
@@ -176,6 +228,12 @@ Nothing is immutable by default.
 - don't see branching concepts as a religion
 
 ---
+
+<!--
+- keep in mind for dependencies
+- not reliable if from other owner
+- branch protection can help
+-->
 
 # Tags are not immutable
 
@@ -190,6 +248,11 @@ Nothing is immutable by default.
 Who doesn't love conventions?
 
 ---
+
+<!--
+- show conventional commits samples from homepage
+- please dont use emojis
+-->
 
 <!-- _footer: Learn more here: https://conventionalcommits.org/ -->
 # Commit with respect to conventional commits
@@ -210,6 +273,10 @@ The format is super simple:
 
 ---
 
+<!--
+- use when necessary
+-->
+
 # Use the commit body
 
 - the commit can have a body, use it when required
@@ -221,6 +288,11 @@ The format is super simple:
       ![](./images/commit-body-open.png)
 
 ---
+
+<!--
+- important thing: praise
+- show example from website (dark reader off!)
+-->
 
 <!-- _footer: Learn more here: https://conventionalcomments.org/-->
 # Use Conventional Comments on PRs
