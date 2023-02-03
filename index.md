@@ -330,6 +330,12 @@ Questions, concerns, ideas? - Now is the time
 
 ---
 
+<!--
+- there is still the joke slide left!
+- mention open source projects
+- offer help for questions
+-->
+
 # That's (g)it
 
 Slides (Source):
@@ -343,6 +349,10 @@ Twitter: [@timo_reymann](https://twitter.com/timo_reymann)
 GitHub: [timo-reymann](https://github.com/timo-reymann)
 
 ---
+
+<!--
+keep calm and use it as a tool, we are all ust modern handyman!
+-->
 
 ![bg height:85%](./images/in_case_of_fire.png)
 
