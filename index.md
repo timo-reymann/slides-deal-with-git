@@ -76,9 +76,9 @@ git commit -m "I am Linus!"
 
 <!--
 - fancy
-- make sure
-    - for your mail 
-    - set on platform
+- make sure you are the author
+    - for your mail
+    - set on platform to verify in web ui
 -->
 
 # Verified commits to the rescue!
@@ -98,7 +98,8 @@ git commit -m "I am Linus!"
 <!--
 - GPG can be a bit painful
 - cryptography is still hard
-- platforms like keybase.io could be solution as well
+
+- mention assistent is not yet battle proven
 -->
 
 # Setting it up is easy - 3 steps to victory
@@ -115,6 +116,8 @@ git commit -m "I am Linus!"
     git config --global commit.gpgsign true
     ```
 
+> Alternative: Use [GPG Key Creation Assitant](https://github.com/timo-reymann/gpg-key-creation-assistant) - created by me
+
 ---
 
 <!-- _class: invert -->
@@ -125,6 +128,12 @@ git commit -m "I am Linus!"
 But luckily we are not accountants!
 
 ---
+
+<!--
+- allows you to work incrementally
+- address pr comments making it easier to track in review
+- push more often without messing up your repo
+-->
 
 <!-- _footer: Image for git squash: [atlassian.com](https://atlassian.com/git/tutorials/rewriting-history) -->
 # Squash your feature branches
@@ -139,7 +148,7 @@ But luckily we are not accountants!
 
 <!--
 - local main and remote main are also two branches
-- also works for PR merges, would not recommend anyway
+- also works for PR merges, but not recommend
 -->
 
 <!-- _footer: Image for git rebase: [atlassian.com](https://atlassian.com/git/tutorials/rewriting-history/git-rebase) -->
@@ -351,7 +360,8 @@ GitHub: [timo-reymann](https://github.com/timo-reymann)
 ---
 
 <!--
-keep calm and use it as a tool, we are all ust modern handyman!
+- keep calm and use it as a tool, we are all ust modern handyman!
+- request feedback and post in chat: https://forms.gle/LyA8gaY2jS3TCKpp9
 -->
 
 ![bg height:85%](./images/in_case_of_fire.png)
